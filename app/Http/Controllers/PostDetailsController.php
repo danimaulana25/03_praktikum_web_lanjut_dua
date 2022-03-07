@@ -7,6 +7,8 @@ use Illuminate\Http\Request;
 class PostDetailsController extends Controller
 {
     public function postdetails(){
-        return view('post-details');
+        return view('post-details',[
+            'title' => 'Post Detail'
+        ]);
     }
 }

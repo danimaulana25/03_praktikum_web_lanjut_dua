@@ -1,5 +1,6 @@
 @extends('layout.master')
 @section('content')
+
   <!-- Page Content -->
     <!-- Banner Starts Here -->
     <div class="main-banner header-text">
