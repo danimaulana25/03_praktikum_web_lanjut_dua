@@ -57,23 +57,14 @@
         </div>
         
         
+        
         <div class="row">
+          @foreach ($abouts as $about)
           <div class="col-lg-3 col-md-6">
-          <h4>01 Four Columns</h4>
-          	<p>Mauris at ex ipsum. Aenean condimentum urna nisl, eget interdum ante euismod vel. Aliquam at metus sit amet nunc dapibus posuere.</p>
+          <h4>{{$about -> namakolom}}</h4>
+          	<p>{{$about -> ketkolom}}</p>
           </div>
-          <div class="col-lg-3 col-md-6">
-          <h4>02 Four Columns</h4>
-          	<p>Aliquam erat volutpat. Donec posuere tortor vel volutpat consequat. Mauris sagittis magna vel tellus semper interdum et id sapien.</p>
-          </div>
-          <div class="col-lg-3 col-md-6">
-          <h4>03 Four Columns</h4>
-          	<p>Morbi ac interdum metus. Donec posuere tortor vel volutpat consequat. Mauris sagittis magna vel tellus semper interdum et id sapien.</p>
-          </div>
-          <div class="col-lg-3 col-md-6">
-          <h4>04 Four Columns</h4>
-          	<p>Aliquam erat volutpat. Donec posuere tortor vel volutpat consequat. Mauris sagittis magna vel tellus semper interdum et id sapien.</p>
-          </div>
+          @endforeach
         </div>
         
         <div class="row">

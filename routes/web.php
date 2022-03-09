@@ -21,5 +21,5 @@ Route::get('/', [HomeController::class, 'index']);
 Route::get('/about', [AboutController::class, 'about']);
 Route::get('/contact', [ContactController::class, 'contact']);
 Route::get('/blog', [BlogController::class, 'blog']);
-Route::get('/postdetails', [PostDetailsController::class, 'postppdetails']);
+Route::get('/postdetails', [PostDetailsController::class, 'postdetails']);
 

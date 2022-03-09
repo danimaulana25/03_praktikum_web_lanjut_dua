@@ -20,7 +20,7 @@
               <a class="nav-link" href="/blog">Blog Entries</a>
             </li>
             <li class="nav-item {{ Request::is('post-details') ? 'active' : '' }}">
-              <a class="nav-link" href="/post-details">Post Details</a>
+              <a class="nav-link" href="/postdetails">Post Details</a>
             </li>
             <li class="nav-item {{ Request::is('contact') ? 'active' : '' }}">
               <a class="nav-link" href="/contact">Contact Us</a>
